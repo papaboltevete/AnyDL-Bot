@@ -30,7 +30,7 @@ async def start(client, message):
                chat_id=message.chat.id,
                text="""<b>Hey There, I'm AnyDL Bot
 
-I can download video or audio from Youtube. Made by @ImJanindu 🇱🇰
+I can download video or audio from Youtube. Made by @SEDxD 🇮🇳
 
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
@@ -38,10 +38,10 @@ Hit help button to find out more about how to use me</b>""",
                                         InlineKeyboardButton(
                                             "Help", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Channel", url="https://t.me/Infinity_BOTs")
+                                            "Channel", url="https://t.me/X_F0RCED")
                                     ],[
                                       InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/ImJanindu/AnyDL-Bot")
+                                            "Group", url="https://t.me/X_F0RCE_TEAM")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -56,7 +56,7 @@ async def help(client, message):
 
 Just send a Youtube url to download it in video or audio format!
 
-~ @Infinity_BOTs</b>""",
+~ @SEDxD</b>""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
@@ -65,7 +65,7 @@ Just send a Youtube url to download it in video or audio format!
                                             "About", callback_data="about"),
                                   ],[
                                         InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/ImJanindu/AnyDL-Bot")
+                                            "🇮🇳OWNER🇮🇳", url="https://t.me/SEDxD)
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -78,19 +78,19 @@ async def about(client, message):
                chat_id=message.chat.id,
                text="""<b>About AnyDL Bot!</b>
 
-<b>♞ Developer:</b> <a href="https://t.me/ImJanindu">Janindu 🇱🇰</a>
+<b>♞ Developer:</b> <a href="https://t.me/SEDxD">🇮🇳MUNNA🇮🇳</a>
 
-<b>♞ Support:</b> <a href="https://t.me/InfinityBOTs_Support">Infinity BOTs Support</a>
+<b>♞ Support:</b> <a href="https://t.me/X_F0RCE_TEAM">SUPPORT</a>
 
-<b>♞ Library:</b> <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
+<b>♞ Channel:</b> <a href="https://t.me/X_F0RCED">CHANNEL</a>
 
-<b>~ @Infinity_BOTs</b>""",
+<b>~ @SEDxD</b>""",
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
                                             "Back", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/ImJanindu/AnyDL-Bot")
+                                            "🇮🇳Owner🇮🇳", url="https://t.me/SEDxD")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -319,7 +319,7 @@ async def button(bot, update):
 print(
     """
 Bot Started!
-Join @Infinity_BOTs
+Join @ABOUTMUNNA ❤🔥
 """
 )
 
